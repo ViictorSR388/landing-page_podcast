@@ -2,7 +2,7 @@
 
 <h2 align="center">STATUS - COMPLETO</h2>
 
-Um exemplo de landing page feito para fins de estudo e revisão. Nele utilizei conhecimentos em HTML, CSS & SCSS, adicionando também um player que toca o trecho do podcast pela API do Spotify. O podcast é o [Registros de um Player](https://linktr.ee/viictorsr388) e ele é feito por mim. Todo o desing do site foi feito seguindo o [prótotipo](https://www.figma.com/file/acLI7OlD6Qvrh4svmqsEDj/Landing-Page---Registros-de-Um-Player?node-id=0%3A1) que eu mesmo fiz no Figma.
+Um exemplo de landing page feito para fins de estudo e revisão. Nele utilizei conhecimentos em HTML, CSS & SCSS, adicionando também um player que toca o trecho do podcast pela API do Spotify. O podcast é o [Registros de um Player](https://linktr.ee/viictorsr388) e ele é feito por mim. Todo o desing do site foi feito seguindo o [prototipo](https://www.figma.com/file/acLI7OlD6Qvrh4svmqsEDj/Landing-Page---Registros-de-Um-Player?node-id=0%3A1) que eu mesmo fiz no Figma.
 
 <h3 align="center">Ferramentas Usadas</h3>
 
