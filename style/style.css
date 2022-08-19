@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@media screen and (max-width: 1040px) {
+  section.about div#about-text p {
+    font-size: 15px;
+  }
+  section.comments div.comment-card p {
+    font-size: 15px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 740px) {
+  section.about div#about-text p {
+    font-size: 12px;
+  }
+  section.comments div.comment-card p {
+    font-size: 12px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 560px) {
+  section.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  section.about div#about-text {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+* body {
+  background: #120A8f;
+}
+* a {
+  text-decoration: none;
+}
+* p {
+  font-family: "Space Mono", monospace;
+  font-size: 19px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  height: 100px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+header nav div {
+  cursor: pointer;
+}
+header nav div .header-icons {
+  width: 75px;
+  height: 75px;
+}
+header nav div:hover {
+  opacity: 0.5;
+  transform: scale(1.2, 1.2);
+  transition: transform 0.6s;
+}
+header nav .contact-icon {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+header nav .contact-icon:hover {
+  opacity: 0.5;
+  transform: scale(1.2, 1.2);
+  transition: transform 0.8s;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #120A8f;
+}
+main section {
+  width: 1000px;
+  margin-top: 50px;
+}
+main section.about {
+  display: flex;
+}
+main section.about img#podcast-logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+main section.about div#about-text {
+  margin-left: 20px;
+}
+main section.plataforms {
+  display: flex;
+  justify-content: space-around;
+}
+main section.plataforms div.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+main section.plataforms div.circles img.plataform-icons {
+  width: 75px;
+  height: 75px;
+}
+main section.plataforms div.circles .plataform-icons:hover {
+  opacity: 0.5;
+  transform: scale(1.2, 1.2);
+  transition: transform 0.6s;
+}
+main section.comments {
+  background: #121212;
+  padding: 10px;
+  border-radius: 20px;
+}
+main section.comments div.comment-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section.comments div.comment-card div.comment-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+main section.comments div.comment-card div.comment-title img#user-profile {
+  width: 65px;
+}
+main section.comments div.comment-card div.comment-title img#user-profile:hover {
+  opacity: 0.5;
+  transform: scale(1.2, 1.2);
+  transition: transform 0.6s;
+}
+main section.comments div.comment-card p {
+  padding: 10px;
+}
+main section.comments div.comment-card div.comment-footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 10px;
+}
+main section.comments div.comment-card div.comment-footer div.like-dislike {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+}
+main section.comments div.comment-card div.comment-footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+main section.comments div.comment-card div.comment-footer div img {
+  width: 20px;
+}
+main section.comments div.comment-card div.comment-footer div img:hover {
+  opacity: 0.5;
+  transform: scale(1.2, 1.2);
+  transition: transform 0.6s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  margin-top: 50px;
+  height: 100px;
+}
+footer a {
+  color: #FFFFFF;
+}
+footer a:hover {
+  color: #120A8f;
+}
+
+/*# sourceMappingURL=style.css.map */

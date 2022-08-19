@@ -1,0 +1,36 @@
+@media screen and (max-width: 1040px) {
+  section.about div#about-text p {
+    font-size: 15px;
+  }
+  section.comments div.comment-card p {
+    font-size: 15px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 740px) {
+  section.about div#about-text p {
+    font-size: 12px;
+  }
+  section.comments div.comment-card p {
+    font-size: 12px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 560px) {
+  section.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  section.about div#about-text {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

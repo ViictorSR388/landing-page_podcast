@@ -1,0 +1,207 @@
+// VARIAVEIS
+@import "./variables.scss";
+
+// RESPONSIVIDADE
+@import "./responsive.scss";
+
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+// PADRÃO
+* {
+    margin: 0;
+    padding: 0;
+
+    body {
+        background: $background;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        font-family: 'Space Mono', monospace;
+        font-size: 19px;
+    }
+
+    color: #FFFFFF
+}
+
+
+// HEADER
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $primarycolor;
+    height: 100px;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+
+        div {
+            .header-icons {
+                width: 75px;
+                height: 75px;
+            }
+            cursor: pointer;
+        }
+        div:hover {
+            opacity: 0.5;
+            transform: scale(1.2,1.2);
+            transition: transform 0.6s;
+        }
+    
+        .contact-icon {
+            width: 70px;
+            height: 70px;
+            cursor: pointer;
+        }
+        .contact-icon:hover {
+            opacity: 0.5;
+            transform: scale(1.2,1.2);
+            transition: transform 0.8s;
+        }
+    }
+}
+
+// MAIN
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: $background;
+
+    // Todas as sessões
+    section {
+        width: 1000px;
+        margin-top: 50px;
+    }
+
+    // Sessão sobre
+    section.about {
+        display: flex;
+
+        img#podcast-logo {
+            width: 250px;
+            height: 250px;
+            border-radius: 20px;
+        }
+
+        div#about-text {
+            margin-left: 20px;
+        }
+    }
+
+    
+    section.plataforms {
+        display: flex;
+        justify-content: space-around;
+
+        div.circles {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            background: #FFFFFF;
+
+            cursor: pointer;
+
+            img.plataform-icons {
+                width: 75px;
+                height: 75px;
+            }
+            .plataform-icons:hover {
+                opacity: 0.5;
+                transform: scale(1.2,1.2);
+                transition: transform 0.6s;
+            }
+        }
+    }
+
+    section.comments {
+        background: $primarycolor;
+        padding: 10px;
+        border-radius: 20px;
+
+        div.comment-card {
+            display: flex;
+            flex-wrap: wrap;
+
+            div.comment-title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 50%;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                img#user-profile {
+                    width: 65px;
+                }
+                img#user-profile:hover {
+                    opacity: 0.5;
+                    transform: scale(1.2,1.2);
+                    transition: transform 0.6s;
+                }
+            }
+
+            p {
+                padding: 10px;
+            }
+
+            div.comment-footer {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                margin-top: 10px;
+
+                div.like-dislike {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 15%;
+                }
+
+                div {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 30%;
+                    
+                    img {
+                        width: 20px;
+                    }
+
+                    img:hover {
+                        opacity: 0.5;
+                        transform: scale(1.2,1.2);
+                        transition: transform 0.6s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// FOOTER
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $primarycolor;
+    margin-top: 50px;
+    height: 100px;
+
+    a {
+        color: #FFFFFF;
+    }
+    a:hover {
+        color: $hover;
+    }
+}
